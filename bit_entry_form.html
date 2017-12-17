@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- 文字コード！-->
+    <meta charset="utf-8">
+
+    <!-- ブラウザで表示されるタイトル !-->
+    <title>bit entry 今からはじめるビットコイン</title>
+
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="reset.min.css" media="all">
+    <link rel="stylesheet" href="bit_entry_form.css" media="all">
+
+
+    <!-- スライダー -->
+    <link rel="stylesheet" href="slick/slick.css" media="all">
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+    //複数枚のスライダー
+    //自動再生あり、ドットありに設定
+    $(function() {
+
+        $('.slider').slick({
+          infinite: true,
+          //画像下のドット（ページ送り）を表示
+          dots: true,
+          //自動再生あり
+          autoplay: true,
+          //自動再生のスピード
+          autoplaySpeed: 2500
+        });
+    });
+
+
+    $(function(){
+    $(".fancy-button").mousedown(function(){
+    $(this).bind('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd', function(){
+        $(this).removeClass('active');
+    })
+     $(this).addClass("active");
+ });
+});
+
+
+
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <div class="learn">
+        	 <h1>
+             	<img src="images/learn_more.png" alt="bitcoinについてもっと知りたい">
+            </h1>
+            <div class="forms">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgL76MsUhbN22xau51OOuGtfAkMV51w1Hbv2vvdm2AaD5ozw/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+            </div>
+            <div class="learn-detail">
+                <div class="learn-pic">
+                    <img src="images/learn-pic.png" alt="もっと知りたい">
+                </div>
+                <div class="learn-text">
+                    <p>
+                    ビットコインについて、もっと詳しく知りたい方、ネットの情報だけだと心配という方へ、マンツーマンで疑問にお答えするレッスンを承っています。東京23区内であればお伺いしてカフェでのレッスン。それ以外の場合は、オンラインレッスン（アカウント不要のオンライン通話を利用）となります。<br>
+                    </p>
+                </div>
+            </div>
+        </div> 
+        <div class="widgets">
+            <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fharuharuhar04-22%2F8003%2F2f8da27a-96b2-4667-a5f6-e3e1d00c3408&Operation=GetScriptTemplate"> </SCRIPT> <NOSCRIPT><A rel="nofollow" HREF="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fharuharuhar04-22%2F8003%2F2f8da27a-96b2-4667-a5f6-e3e1d00c3408&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
+        </div>
+        <a href="bit_entry.html">
+            <div class="learn-button">
+                <img src="images/go_top.png" alt="TOPヘ戻る">
+            </div>
+        </a>
+        <div class="contact">  
+            <div class="contact-box">
+                <img src="images/contact-decoration.png" alt="飾り">
+                <p>きたはな〜〜〜kkkkk〜〜〜</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        bit entry All Rights Reserved.
+    </footer>
+    </div>
+</body>
+</html>
